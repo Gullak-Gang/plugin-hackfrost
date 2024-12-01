@@ -1,0 +1,9 @@
+id: instagramFetch
+namespace: company.team
+
+tasks:
+- id: fetch-posts
+  type: io.kestra.plugin.instagram.Fetch
+  token: "apify_api_p9bfRqx74jUne8bfLV9vyN5gfcuP351aYjXC"
+  hashtag: "diwali_sale"
+  numberOfPosts: "1"

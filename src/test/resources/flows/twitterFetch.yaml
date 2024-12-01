@@ -1,0 +1,8 @@
+id: twitterFetch
+namespace: company.team
+
+tasks:
+- id: fetch-tweets
+  type: io.kestra.plugin.twitter.Fetch
+  url: "https://gullak-seven.vercel.app"
+  numberOfPosts: "1"
